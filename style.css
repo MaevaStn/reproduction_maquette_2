@@ -1,0 +1,183 @@
+body {
+    background-color: #F4F4F4;
+    font-family: 'Roboto', sans-serif;;
+}
+
+h1 {
+    color: #175085 ;
+    margin-top: 12%;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 50;
+}
+
+span {
+    font-weight: bold;
+}
+
+.image {
+    position: absolute;
+    margin-left: 19.5%;
+}
+
+.iphone {
+    transform: rotateZ(-5deg);
+    width: 510px;
+}
+
+.text-top {
+    color: #175085;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.text-plate-formes p{
+    color: #646464;
+    font-size: 16px;
+    font-weight: 300;
+    margin-left: 50%;
+    margin-top: 90px;
+}
+
+.text-middle {
+    font-size: 10px;
+    font-weight: 300;
+    margin-left: 42%;
+    padding-top: 25px;
+}
+
+.inscription {
+    margin-left: 36%;
+    margin-top: 10px;
+    background-color: #175085;
+    color: white;
+    height: 130px;
+    width: 37%;
+}
+
+input {
+    margin-left: 42%;
+    border: #175085;
+    border-radius: 2px;
+    height: 28px;
+    width: 170px;
+}
+
+::placeholder {
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+button {
+    background: linear-gradient(rgb(252,223,1) ,#F9BF00);
+    border: rgb(252,223,1);
+    border-radius: 2px;
+    color: #175085;
+    cursor: pointer;
+    font-size: 15px;
+    height: 30px;
+    width: 80px;
+}
+
+hr {
+    margin-top: 18%;
+    width: 20%;
+}
+
+.text-bottom {
+    color: black;
+    font-size: 10px;
+    font-weight: 100;
+    text-align: center;
+}
+
+@media all and (max-width: 600px) {
+    h1 {
+        color: #646464;
+        font-size: 40px;
+        text-align: center;
+        margin: auto;
+        margin-top: 70px;
+    }
+
+    .text-top {
+        display: none;
+    }
+
+    .text-plate-formes p{
+        color: #646464;
+        font-size: 14px;
+        margin-left: 20px;
+        margin-top: 40px;
+        position: relative;
+        width: 110px;
+    }
+
+    img.iphone {
+        transform: rotateZ(0);
+        margin-left: 8px;
+        width: 380px;
+    }
+
+    .inscription {
+        margin-top: 40px;
+        margin-left: 0;
+        height: 450px;
+        width: 100%;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    .text-middle {
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        margin: auto;
+        margin-bottom: 40px;
+        padding-top: 17%;
+        width: 300px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    input {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 20px !important;
+        margin-top: 10px;
+        margin: auto;
+        height: 50px;
+        width: 350px;
+    }
+
+    ::placeholder {
+        font-size: 20px;
+    }
+
+    button {
+        margin-top: 10px;
+        margin: auto;
+        font-weight: 500;
+        font-size: 20px;
+        height: 50px;
+        width: 355px;
+    }
+
+    span.btn {
+        font-weight: 600;
+    }
+
+    footer {
+        display: none;
+    }
+
+}
